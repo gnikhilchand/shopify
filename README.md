@@ -49,7 +49,7 @@ Python 3.10 or higher
 A running MySQL server instance
 
 1. Clone the Repository
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/gnikhilchand/shopify.git
 cd your-repository-name
 
 2. Set Up a Virtual Environment
