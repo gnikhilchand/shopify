@@ -1,19 +1,3 @@
-/shopify-insights-app
-├── main.py                 # FastAPI application entry point and API routes
-├── scraper/
-│   ├── scraper.py          # Core Scraper class with logic to fetch and parse data
-│   └── utils.py            # Helper functions (e.g., making HTTP requests)
-├── models/
-│   ├── pydantic_models.py  # Pydantic models for API request/response
-│   └── db_models.py        # (Bonus) SQLAlchemy models for the database
-├── crud/
-│   └── operations.py       # (Bonus) Functions for database interactions
-├── database/
-│   └── database.py         # (Bonus) Database session setup
-├── requirements.txt        # Project dependencies
-└── .env                    # Environment variables (e.g., DB connection string)
-
-
 Shopify Store Insights Fetcher 🛍️
 A powerful backend application built with Python and FastAPI to scrape and structure key data from any Shopify store. Provide a store's URL and receive a comprehensive JSON object with its product catalog, policies, social handles, and more.
 
